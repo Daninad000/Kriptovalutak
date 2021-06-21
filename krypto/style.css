@@ -1,0 +1,288 @@
+
+/*_______________________________________________________*/
+/* carousel */
+
+.carousel-inner img {
+    width:  100%;
+    height: 100%;
+}
+
+
+/*_______________________________________________________*/
+/* navbar */
+
+.navbar ul {
+    padding-left: 2rem;
+    padding-right: 2rem;
+} 
+
+
+.navbar {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+
+/*_______________________________________________________*/
+/* body, html */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+
+.bg {
+    background-image: url("pictures/main_page/depositphotos_323247580-stock-illustration-grey-blockchain-technology-icon-isolated2.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: scroll; 
+    text-align: center;
+}
+
+
+#content {
+    margin: 50px;
+    text-align: center;
+}
+
+/*_______________________________________________________*/
+/* footer */
+
+#left {
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+#center {
+    display: inline-block;
+}
+
+#right {
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
+}
+
+
+/*_______________________________________________________*/
+/* body, content */
+
+body {
+    background-image: url('pictures/main_page/golden-rain-bitcoins-on-a-dark-background-vector-17020174.jpg');
+    background-attachment: fixed;
+}
+
+.container{
+    background: rgba(44, 54, 63, 0.90);
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+
+h1{
+    color: azure;
+    font-variant:small-caps;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+h2{
+    color: lightblue;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: left;
+    margin: 2rem;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+  
+p{
+    text-align: left;
+    line-height: 130%;
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+/*_______________________________________________________*/
+/* text link color */
+
+.textlink {
+    color: rgb(0, 236, 236);
+}
+
+/*_______________________________________________________*/
+/* inner background color */
+
+.overlay {
+    background-color: rgba(44, 54, 63, 0.80);
+}
+
+/*_______________________________________________________*/
+/* table and cells */
+
+table {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+tr {
+    padding: 5px;
+}
+
+td {
+    border-style: solid;
+    padding: 10px;
+}
+
+
+span {
+    padding: 5px;
+}
+
+/*_______________________________________________________*/
+/* unordered list style */
+
+ul {
+    color: white;
+    text-align: left;
+    margin: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+
+/*_______________________________________________________*/
+/* form elements */
+
+.card {
+    padding: 2rem;
+    margin: 3rem;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+
+
+/*_______________________________________________________*/
+/* form reset and submit button */
+
+#leftbtn{
+    display: inline-block;
+    float: left;
+    margin-left: 25%;
+}
+
+#rightbtn{
+    display: inline-block;
+    float: right;
+    margin-right: 25%;
+}
+
+/*_______________________________________________________*/
+/* form crypto checkbox */
+
+#labelbitcoin{
+    padding-right: 25px;
+}
+
+#labelethereum{
+    padding-right: 25px;
+}
+
+#labeldogecoin{
+    padding-right: 25px;
+}
+
+#labeltether{
+    padding-right: 25px;
+}
+
+#labelchia{
+    padding-right: 25px;
+}
+
+
+
+/*_______________________________________________________*/
+/* form textarea size */
+
+#ans{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
